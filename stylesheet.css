@@ -1,0 +1,192 @@
+
+*{
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	font-family: 'Arimo', sans-serif;
+	font-size:100%;
+}
+
+body{
+	background-image:url("bilder/bak2.PNG");
+}
+
+header{
+	color:black;
+	height:100px;
+	text-align:center;
+	line-height:100px;
+	font-size:200%;
+}
+footer{
+	color:white;
+	height:100px;
+	text-align:right;
+	line-height:100px;
+	background-color:grey;
+	box-shadow: 10px 10px 5px black;
+	border-radius:20px;
+}
+footer a{
+	margin-right:2%;
+	text-decoration:none;
+	color:white;
+}
+footer a:hover{
+	color:black;
+}
+
+nav ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+nav li {
+	float:left;
+	text-align:center;
+	margin:1px;
+}
+
+nav li a{
+
+	display:inline-block;
+	color:black;
+	text-align:center;
+	padding:15px 15px;
+	text-decoration:none;
+	width:245px;
+	border:solid;
+	border-color:white;
+	border-radius:10px;
+}
+
+nav li a:hover{
+	background-color:grey;
+}
+
+#wrapper{
+	min-height:1000px;
+	max-width:1000px;
+	width:100%;
+	margin-left:25%;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+aside{
+	font-size:120%;
+	padding:5px;
+	height:350px;
+	width:100%;
+	float:left;
+	display:inline-block;
+	border:solid;
+	border-color:white;	
+	text-align:center;
+	margin-top:5%;
+	box-shadow: 10px 10px 5px black;
+}
+aside ul li{
+	text-align:left;
+	margin-top:5%;
+}
+
+
+#aside1{
+	margin-left:8%;
+	margin-top:5%;
+	max-height:700px;
+	height:100%;
+	width:10%;
+	float:left;
+}
+#articleside{
+	margin-top:3%;
+	margin-left:10%;
+	width:100%;
+	max-width:800px;
+	border:solid;
+	background-color:white;
+	padding:25px;
+	box-shadow: 10px 10px 5px black;
+	border-radius:10px;
+	font-size:120%;
+}
+article h2{
+	text-align:center;
+}
+
+
+article {
+	font-size:110%;
+	padding:10px;
+	border:solid;
+	display:inline-block;
+	max-width:250px;
+	width:100%;
+	margin-left:6%;
+	margin-top:3%;
+	margin-bottom:3%;
+	height:350px;
+	background-color:white;
+	overflow:hidden;
+	box-shadow: 10px 10px 5px black;
+	border-radius:10px;
+}
+
+#bilde{
+	float:right;
+	width:400px;
+	margin:15px;
+}
+
+.ombilde{
+	width:90%;
+	min-height:400px;
+	height:100%;
+	margin-left:5%;
+}
+
+iframe{
+	margin-left:10%;
+	margin-bottom:2%;
+	width:80%; 
+	min-height:500px;
+	height:100%;
+	border:solid;
+	border-radius:10px;
+	padding:5px;
+	background-color:white;
+}
+
+table tr td, table tr th{
+	border:1px solid black;
+	padding:6px;
+
+}
+tr:nth-child(even){
+	background-color:lightgrey;
+}
+table{
+	border-collapse: collapse;
+	width:80%;
+	margin-left:10%;
+}
+table a{
+	text-decoration:none;
+	color:black;
+}
+table a:hover{
+	color:grey;
+}
+.lesmer{	
+	text-decoration:none;
+	float:right;
+	color:black;
+}
+.lesmer:hover{
+	color:lightgrey;
+}
+
+

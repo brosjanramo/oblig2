@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+	<meta charset="utf-8" />
+	<title>Oppgave 4</title>
+	<script src="https://use.fontawesome.com/4dda888086.js"></script>
+	<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=MML_CHTML"></script>
+</head>
+<body>
+
+<header>
+	<h1>MathML</h1>
+</header>
+<div id="wrapper">
+<nav>
+	<ul>
+		<li>
+			<a href="oppgave2.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+		</li>
+		<li>
+			<a href="svg.html"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>SVG</a>
+		</li>
+		<li>
+			<a href="mathml.html"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>MathML</a>
+		</li>
+		<li>
+			<a href="#nav4"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>GitHub</a>
+		</li>
+	</ul>
+</nav>
+<main>
+	<div id="articleside">
+		<h2>MathML</h2>
+		<p>ML står for markup language, og math står for matte. MathML gir oss muligheten til å representere regnestykker og matematiske formler på en strukturert måte.
+			Dette kan vi bruke i HTML5 istedenfor å sette inn bilder. MathML er en del av HTML5, men alle nettlesere støtter ikke det. Derfor må vi linke opp MathML til 
+			HTML5. Det finnes 2 typer MathML. C-MathML som beholder semantikken i det matematiske uttrykket og P-MathML som beskriver hvordan det skal vises. Vi bruker XML
+			for å fremstille fomlene/regnestykkene.</p>
+			
+		<p>Dette er noen eksempler på MathML:</p>
+			
+		<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+	  <mrow>
+		<mi>x</mi>
+		<mo>=</mo>
+		<mfrac>
+		  <mrow>
+			<mrow>
+			  <mo>-</mo>
+			  <mi>b</mi>
+			</mrow>
+			<mo>&#xB1;</mo>
+			<msqrt>
+			  <mrow>
+				<msup>
+				  <mi>b</mi>
+				  <mn>2</mn>
+				</msup>
+				<mo>-</mo>
+				<mrow>
+				  <mn>4</mn>
+				  <mo>&#x2062;</mo>
+				  <mi>a</mi>
+				  <mo>&#x2062;</mo>
+				  <mi>c</mi>
+				</mrow>
+			  </mrow>
+			</msqrt>
+		  </mrow>
+		  <mrow>
+			<mn>2</mn>
+			<mo>&#x2062;</mo>
+			<mi>a</mi>
+		  </mrow>
+		</mfrac>
+	  </mrow>
+	</math>
+	<br />
+	<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+	  <mrow>
+		<mrow>
+		  <msup>
+			<mi>x</mi>
+			<mn>2</mn>
+		  </msup>
+		  <mo>+</mo>
+		  <mrow>
+			<mn>4</mn>
+			<mo>&#x2062;</mo>
+			<mi>x</mi>
+		  </mrow>
+		  <mo>+</mo>
+		  <mn>4</mn>
+		</mrow>
+		<mo>=</mo>
+		<mn>0</mn>
+	  </mrow>
+	</math>
+	<p>Under er det en veldig enkel formel. Men uten Mathml, måtte vi mest sannsynlig funnet denne formelen via google, tatt bilde av det, redigert bilde og til slutt satt bilde inn 
+	 på nettsiden. Det slipper vi, ved å bruke MathMl, her kan man sett formelen direkte inn fra HTML5. Samme gjelder eksemplene over. Man kan også kopiere formlene og rebruke det.
+	 </p>
+	<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+	  <mi>&#x3C0;</mi>
+	  <mo>&#x2062;</mo>
+	  <msup>
+		<mi>r</mi>
+		<mn>2</mn>
+	  </msup>
+	</math>
+	<p>Eksemplene er hentet fra: http://www.freedomscientific.com/content/html/jawshq/MathML-Samples.html</p>
+	</div>
+</main>
+</div>
+<footer>
+	<p>Artikkel om webserver</p>
+</footer>
+</body>
+</html>
